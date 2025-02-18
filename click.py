@@ -13,23 +13,12 @@ def truncate(number, digits=9):
 head = []
 for i in d:
     headers = {
-    'accept': 'application/json, text/plain, */*',
-    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
     'authorization': f'Bearer {i}',
-    'cache-control': 'no-cache',
     'content-type': 'application/json',
     'origin': 'https://byteapi.su',
-    'pragma': 'no-cache',
-    'priority': 'u=1, i',
     'referer': 'https://byteapi.su/app/',
-    'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
-    'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'sec-fetch-storage-access': 'active',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36'
     }
     head.append(headers)
 
