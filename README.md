@@ -12,7 +12,7 @@ config.py
 
 Откройте окно консоли
 
-В консоли разверните 
+Нажмите 1 раз на монетку и в консоли разверните 
 
 ![image](https://github.com/user-attachments/assets/b39deb2e-7d43-4a34-be02-8bde3419d9a1)
 
